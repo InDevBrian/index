@@ -1,19 +1,3 @@
-/* Namari Landing Page Dynamic Style Index
-
-1. Website Default Styling
-2. Navigation
-3. Primary and Secondary Colors
-4. Banner
-5. Typography
-6. Buttons
-7. Footer
-
-
-/*------------------------------------------------------------------------------------------*/
-/* 1. Website Default Styling */
-/*------------------------------------------------------------------------------------------*/
-
-
 body {
     background:#414141;
 }
@@ -326,4 +310,28 @@ h6 {
 
 #landing-footer i {
     color:#999;
+}
+
+
+
+
+
+.short-dark {
+    background-color: #11111181;
+}
+
+.short-light {
+    background-color: #1111110e;
+}
+
+.landing-button {
+    transition:all .1s linear;
+    border: 2px solid #c1c1c1;
+    color: #e1e1e1;
+    background-color: #11111141;
+}
+
+.landing-button:hover {
+    border: 2px solid #d2b356;
+    color: #d2b356;
 }
